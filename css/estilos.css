@@ -1,0 +1,113 @@
+/*
+GERAL
+*/
+body{ /*Personalização dos textos em geral do site*/
+    font-family:"Open Sans", Arial, Helvetica, sans-serif; /*Opções de fonte para a tela do usuário*/
+    color: #5d5d5f;/*cor do texto*/
+
+}
+h1,h2,h3{ /*Personalização dos cabeçalhos citados*/
+    margin:0;
+    font-family:"Roboto Slab", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.botao{ /*Ver mais/Entre em contato*/
+    color:#f1f1f1; /*Cor do texto*/
+    text-decoration: none; /*Sem decoração*/
+    padding: 10px 30px; /*10px em cima em baixo e 30px dos lados*/
+    background: #3f3d3a; /*Cor de fundo*/
+    margin: 20px; /*Margem*/
+    font-weight: 700;
+    font-size: .9em; /*tamanho da fonte*/
+    border-radius: 3px; /*borda arredondada*/
+}
+
+/*
+NAVEGAÇÃO TOPO DE CIMA
+*/
+nav{
+    display: flex;
+    flex-direction: column; /*Direção*/
+    align-items: center; /*Alinhamento*/
+    background-color: #1b1b1b; /*Cor de fundo*/
+}
+
+nav > a { /*LOGO*/
+    text-decoration: none; /*Tira o sublinhado*/
+    color: #f1f1f1; /*Cor*/
+    font-weight: 700; /*Fonte (negrito)*/
+    font-size: 28px; /*Tamanho*/
+    font-family:serif; /*Fontes*/
+}
+nav ul{ /*MENU*/
+    list-style: none;/*Remove os . que antecedem as palavras*/
+    padding: 0%; /*Espaçamento*/
+    display: flex;
+    flex-direction: column; /*Direção*/
+    align-items: center; /*Alinhamento central*/
+    width: 100%; /*Largura*/
+}
+nav ul li { /*Itens da lista MENU*/
+    text-align: center; /*Alinhamento central*/
+    width: 100%; /*Largura*/
+}
+nav ul li a { /*Botões*/
+    display: inline-block;
+    padding: 10px 0; /*Espaçamento*/
+    width: 100%; /*Largura*/
+    text-decoration: none; /*Tira o sublinhado*/
+    color: #d4941c;/*cor*/
+}
+
+/*
+CABEÇALHO
+*/
+header{
+    background-image: url('../img/sorriso.png'); /*Img de fundo do cabeçalho*/
+    background-size: cover; /*Img expandir conforme o tamanho da tela*/
+    background-position: center; /*Posição centralizada*/
+    background-repeat: no-repeat; /*Não repetir*/
+    color: #181717; /*Cor*/
+    display: flex;
+    flex-direction: column; /*Direção em coluna*/
+    align-items: center; /*Alinhamento*/
+    text-align: center; /*Alinhamento do texto*/
+    padding-top: 10px 20px 20px 20px; /*Espaçamento*/
+}
+header p { /*parágrafo cabeçalho*/
+    margin-bottom: 2em; /*margem relativa ao padrão 16px*2*/
+    font-weight: bolder;
+    color:#000000;
+}
+
+/*
+SOBRE
+*/
+#sobre {
+    display:flex;
+    flex-direction: column; /*Direção em coluna*/
+    align-items: center; /*Alinhamento central*/
+    text-align: center; /*Alinhamento central do texto*/
+    padding: 0 20px 20px; /*Espaçamento (topo=0), (esq e dir=20px),(parte de baixo=20px)*/
+    background-color: #3f3d3a; /*Cor de fundo*/
+    color: #f1f1f1; /*Cor do texto*/
+}
+#sobre p { /*Parágrafo*/
+    margin-bottom: 2.5em; /*Margem relativa*/
+    max-width: 1000px; /*Largura máxima*/
+}
+#sobre .botao {
+    background-color: #f1f1f1; /*Cor de fundo*/
+    color: #a36f0f; /*Cor do texto*/
+}
+
+/*
+SERVIÇOS
+*/
+#servicos{
+    padding: 20px; /*espaçamento*/
+    display: flex; /*container adaptável*/
+    flex-direction: column; /*direção em coluna*/
+    align-items: center; /*alinhamento central*/
+}
+
